@@ -1,0 +1,2 @@
+class PortefeuilsController < ApplicationController
+end

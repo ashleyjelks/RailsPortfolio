@@ -1,0 +1,2 @@
+class Portefeuil < ApplicationRecord
+end
