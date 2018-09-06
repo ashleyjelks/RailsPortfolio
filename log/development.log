@@ -2660,3 +2660,1200 @@ Processing by PortefeuilsController#index as HTML
 Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/new" for 127.0.0.1 at 2018-09-06 16:00:52 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/new" for 127.0.0.1 at 2018-09-06 16:02:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/new" for 127.0.0.1 at 2018-09-06 16:02:39 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/new" for 127.0.0.1 at 2018-09-06 16:02:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-09-06 16:03:50 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 25ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mew" for 127.0.0.1 at 2018-09-06 16:03:54 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/mew"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/new" for 127.0.0.1 at 2018-09-06 16:03:56 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:04:36 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 146ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:06:55 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 51ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:07:16 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for {:model=>nil, :local=>true}:Hash):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282594813920'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:09:49 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 7.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for {:model=>nil, :local=>true}:Hash):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282592286300'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:09:53 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for {:model=>nil, :local=>true}:Hash):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282588282720'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:10:29 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for {:model=>nil, :local=>true}:Hash):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282587905640'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:10:32 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for {:model=>nil, :local=>true}:Hash):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282590581200'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:10:41 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 2.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fd7e5c3ace8>):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282624845760'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:10:44 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fd7e1438f30>):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282597895980'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:11:31 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fd7e58caa18>):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: puts @portfolio_item
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282623095340'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:11:58 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 4.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fd7e1b06a38>):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: puts @portfolio_item
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282597895280'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:12:25 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:7: syntax error, unexpected tIVAR, expecting keyword_end
+... "HELLLLOOOOO"  @portfolio_item
+...                ^~~~~~~~~~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:7: syntax error, unexpected tIVAR, expecting keyword_end
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:12:44 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+... "HELLLLOOOOO"  @portfolio_item
+...                ^~~~~~~~~~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:13:01 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+... "HELLLLOOOOO"  @portfolio_item 
+...                ^~~~~~~~~~~~~~~
+/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:13:20 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+... "HELLLLOOOOO"  @portfolio_item  = Portefeuil.new
+...                ^~~~~~~~~~~~~~~
+/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:13:36 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+... "HELLLLOOOOO"  @portfolio_item  = Portefeuil.new
+...                ^~~~~~~~~~~~~~~
+/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:13:56 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+... "HELLLLOOOOO"  @portfolio_item  = Portefeuil.all
+...                ^~~~~~~~~~~~~~~
+/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/portefeuils_controller.rb:8: syntax error, unexpected tIVAR, expecting keyword_end
+app/controllers/portefeuils_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:14:14 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:10: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/portefeuils_controller.rb:10: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:14:26 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 3.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fd7e7b15eb0>):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282647950620'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:15:00 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fd7e27093a8>):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282596893560'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:16:01 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 39ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:16:14 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fd7e7acc4b8>):
+    1: <h1>Create new portefeuil item</h1>
+    2: 
+    3: <%= form_for(model: @portfolio_item, local: true) do |form| %>
+    4: 
+    5:   <div class="field">
+    6:     <%= form.label :title %>
+  
+app/views/portefeuils/new.html.erb:3:in `_app_views_portefeuils_new_html_erb___1309057768628438158_70282640800700'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:18:58 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:27:23 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 45ms (Views: 23.8ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:27:25 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/portefeuils" for 127.0.0.1 at 2018-09-06 16:27:30 -0400
+Processing by PortefeuilsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wd7mCrlYZj3TpY5FRS+LAZGscHKSH7N0AVNswGHHD3W8IOEAAxdpZwrJ5hhjKtRMgK+l4gjenCqh/yYeVnm1SQ==", "portefeuil"=>{"title"=>"dsd", "subtitle"=>"dsds", "body"=>"sdsd"}, "commit"=>"Create Portefeuil"}
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[36mPortefeuil Create (1.7ms)[0m  [1m[32mINSERT INTO "portefeuils" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "dsd"], ["subtitle", "dsds"], ["body", "sdsd"], ["created_at", "2018-09-06 20:27:30.020478"], ["updated_at", "2018-09-06 20:27:30.020478"]]
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+Redirected to http://localhost:3000/portefeuils/10
+Completed 302 Found in 9ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/portefeuils/10" for 127.0.0.1 at 2018-09-06 16:27:30 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for PortefeuilsController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/portefeuils" for 127.0.0.1 at 2018-09-06 16:27:47 -0400
+Processing by PortefeuilsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wd7mCrlYZj3TpY5FRS+LAZGscHKSH7N0AVNswGHHD3W8IOEAAxdpZwrJ5hhjKtRMgK+l4gjenCqh/yYeVnm1SQ==", "portefeuil"=>{"title"=>"dsd", "subtitle"=>"dsds", "body"=>"sdsd"}, "commit"=>"Create Portefeuil"}
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[36mPortefeuil Create (0.8ms)[0m  [1m[32mINSERT INTO "portefeuils" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "dsd"], ["subtitle", "dsds"], ["body", "sdsd"], ["created_at", "2018-09-06 20:27:47.211927"], ["updated_at", "2018-09-06 20:27:47.211927"]]
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+Redirected to http://localhost:3000/portefeuils/11
+Completed 302 Found in 21ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/portefeuils/11" for 127.0.0.1 at 2018-09-06 16:27:47 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for PortefeuilsController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:28:24 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ect_to_portefeuil_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:29:15 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ct_to_portefeuils_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:29:30 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ect_to_portfeuils_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:30:11 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ct_to_portefeuils_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:32:09 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ect_to_portefeuils_url, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:32:14 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ect_to_portefeuils_url, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:32:56 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ect_to_portefeuil_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:33:25 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ect_to_portefeuil_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuil" for 127.0.0.1 at 2018-09-06 16:33:31 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/portefeuil"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:33:50 -0400
+Started GET "/portefeuils/" for 127.0.0.1 at 2018-09-06 16:34:00 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ct_to_portefeuils_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+...ct_to_portefeuils_path, notice: 'portfolio_item was successf...
+...                        ^~~~~~~):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected tLABEL, expecting '='
+Started GET "/portefeuils/" for 127.0.0.1 at 2018-09-06 16:34:21 -0400
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected ',', expecting '}'
+... :redirect_to_portefeuils_path, notice: 'portfolio_item was ...
+...                              ^
+/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:15: syntax error, unexpected '}', expecting keyword_end
+...em was successfully created.' }
+...                              ^):
+  
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected ',', expecting '}'
+app/controllers/portefeuils_controller.rb:15: syntax error, unexpected '}', expecting keyword_end
+Started GET "/portefeuils/" for 127.0.0.1 at 2018-09-06 16:35:03 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.6ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (19.2ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 6.3ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__24906937058280130_70131130820260'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__24906937058280130_70131130820260'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:35:35 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 214ms (Views: 200.3ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/portefeuils" for 127.0.0.1 at 2018-09-06 16:35:54 -0400
+Processing by PortefeuilsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SfqB7SDC1z82EWk9iGwTnYcCfkg1pbqUJQNIS4Chjac0BIbnmo3YZe99AWCuaUzQlgGr2K9klcqFrwKVtx83mw==", "portefeuil"=>{"title"=>"New portfolio item", "subtitle"=>"itemmmm", "body"=>"Something goes hereeeee"}, "commit"=>"Create Portefeuil"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[36mPortefeuil Create (0.8ms)[0m  [1m[32mINSERT INTO "portefeuils" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "New portfolio item"], ["subtitle", "itemmmm"], ["body", "Something goes hereeeee"], ["created_at", "2018-09-06 20:35:54.599335"], ["updated_at", "2018-09-06 20:35:54.599335"]]
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"portefeuils"}, missing required keys: [:id]):
+  
+app/controllers/portefeuils_controller.rb:15:in `block (2 levels) in create'
+app/controllers/portefeuils_controller.rb:13:in `create'
+Started POST "/portefeuils" for 127.0.0.1 at 2018-09-06 16:36:25 -0400
+Processing by PortefeuilsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SfqB7SDC1z82EWk9iGwTnYcCfkg1pbqUJQNIS4Chjac0BIbnmo3YZe99AWCuaUzQlgGr2K9klcqFrwKVtx83mw==", "portefeuil"=>{"title"=>"New portfolio item", "subtitle"=>"itemmmm", "body"=>"Something goes hereeeee"}, "commit"=>"Create Portefeuil"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[36mPortefeuil Create (0.3ms)[0m  [1m[32mINSERT INTO "portefeuils" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "New portfolio item"], ["subtitle", "itemmmm"], ["body", "Something goes hereeeee"], ["created_at", "2018-09-06 20:36:25.150253"], ["updated_at", "2018-09-06 20:36:25.150253"]]
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+Redirected to http://localhost:3000/portefeuils
+Completed 302 Found in 19ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:36:25 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.4ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__24906937058280130_70131168611880'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__24906937058280130_70131168611880'
+Started GET "/portefeuil" for 127.0.0.1 at 2018-09-06 16:36:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/portefeuil"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:36:41 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:36:44 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.4ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__24906937058280130_70131156209140'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__24906937058280130_70131156209140'
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:38:23 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:38:45 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/portefeuils" for 127.0.0.1 at 2018-09-06 16:39:01 -0400
+Processing by PortefeuilsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G429SSDnMo/2sgUHF2PEmGFniO9NLbZcOIXafhpWzGhmc7pDmqg91S/ebVoxZpvVcGRdf9fsmQKYKZCgLeh2VA==", "portefeuil"=>{"title"=>"This is a new portfolio Item", "subtitle"=>"Some thing new", "body"=>"Neueeee"}, "commit"=>"Create Portefeuil"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[36mPortefeuil Create (0.3ms)[0m  [1m[32mINSERT INTO "portefeuils" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "This is a new portfolio Item"], ["subtitle", "Some thing new"], ["body", "Neueeee"], ["created_at", "2018-09-06 20:39:01.788592"], ["updated_at", "2018-09-06 20:39:01.788592"]]
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+Redirected to http://localhost:3000/portefeuils
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:39:01 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 24.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:40:05 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7:     puts <%= portfolio_item.thumb_image %>
+    8: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__24906937058280130_70131135126520'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__24906937058280130_70131135126520'
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:40:40 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:41:05 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:41:26 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 31ms (Views: 26.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:42:15 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.4ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7:     
+    8: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__24906937058280130_70131169798340'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__24906937058280130_70131169798340'
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:42:52 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 3.1ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7:     
+    8: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__24906937058280130_70131123645080'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__24906937058280130_70131123645080'
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:42:55 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.4ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7:     
+    8: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__24906937058280130_70131135037240'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__24906937058280130_70131135037240'
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:43:05 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.5ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (26.8ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 4.3ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7:     
+    8: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__2250349544228905601_70204320549680'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__2250349544228905601_70204320549680'
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:43:17 -0400
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 152ms (Views: 149.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/portefeuils" for 127.0.0.1 at 2018-09-06 16:43:29 -0400
+Processing by PortefeuilsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7oU74sGGDKT8di1jg9QlxfRBxgm0AiFDgIIAHlmVITGTezzoe8kD/iUaRT6l0XqI5UITmS7DDh0gLkrAbiubDQ==", "portefeuil"=>{"title"=>"This is a new portfolio Item", "subtitle"=>"Another new itemmm", "body"=>"Newww item"}, "commit"=>"Create Portefeuil"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[36mPortefeuil Create (1.0ms)[0m  [1m[32mINSERT INTO "portefeuils" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "This is a new portfolio Item"], ["subtitle", "Another new itemmm"], ["body", "Newww item"], ["created_at", "2018-09-06 20:43:29.847024"], ["updated_at", "2018-09-06 20:43:29.847024"]]
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+Redirected to http://localhost:3000/portefeuils
+Completed 302 Found in 7ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:43:29 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.5ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (Nil location provided. Can't build URI.):
+    3:     <p><%= portfolio_item.title %></p>
+    4:     <p><%= portfolio_item.subtitle %></p>
+    5:     <p><%= portfolio_item.body %></p>
+    6:     <%= image_tag portfolio_item.thumb_image %>
+    7:     
+    8: <% end %>
+  
+app/views/portefeuils/index.html.erb:6:in `block in _app_views_portefeuils_index_html_erb__2250349544228905601_70204348089640'
+app/views/portefeuils/index.html.erb:2:in `_app_views_portefeuils_index_html_erb__2250349544228905601_70204348089640'
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:45:11 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+        puts "????????" :thumb_image
+                        ^):
+  
+app/controllers/portefeuils_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:45:25 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+        puts "????????" :thumb_image end
+                        ^
+/Users/ashleyjelks/Portfolio/app/controllers/portefeuils_controller.rb:26: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/portefeuils_controller.rb:12: syntax error, unexpected ':', expecting keyword_end
+app/controllers/portefeuils_controller.rb:26: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:47:16 -0400
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:47:26 -0400
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:47:26 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.9ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 159ms (Views: 149.5ms | ActiveRecord: 6.1ms)
+
+
+Processing by PortefeuilsController#new as HTML
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.5ms)
+  Rendered portefeuils/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 88.0ms | ActiveRecord: 3.3ms)
+
+
+Completed 200 OK in 114ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portefeuils/new" for 127.0.0.1 at 2018-09-06 16:47:30 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ashleyjelks/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PortefeuilsController#new as HTML
+  Rendering portefeuils/new.html.erb within layouts/application
+  Rendered portefeuils/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 225ms (Views: 204.7ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/portefeuils" for 127.0.0.1 at 2018-09-06 16:47:37 -0400
+Processing by PortefeuilsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1dfpdZKF3UuRoUFKRvwh6c+26LElLRp9TJ8yllM997aoKe5/KMrSEUjNKRdg+X6k3rU9Ib/sNSPsM3hIZINNig==", "portefeuil"=>{"title"=>"fdfad", "subtitle"=>"dfdsfsdf", "body"=>"fdsfdsfds"}, "commit"=>"Create Portefeuil"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[36mPortefeuil Create (0.7ms)[0m  [1m[32mINSERT INTO "portefeuils" ("title", "subtitle", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "fdfad"], ["subtitle", "dfdsfsdf"], ["body", "fdsfdsfds"], ["created_at", "2018-09-06 20:47:37.170010"], ["updated_at", "2018-09-06 20:47:37.170010"]]
+  ↳ app/controllers/portefeuils_controller.rb:14
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/portefeuils_controller.rb:14
+Redirected to http://localhost:3000/portefeuils
+Completed 302 Found in 6ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:47:37 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.7ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:50:20 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  Rendered portefeuils/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashleyjelks/Portfolio/app/views/portefeuils/index.html.erb:6: syntax error, unexpected ')'
+...tfolio_item.thumb_image.nil ? );@output_buffer.safe_append='
+...                              ^
+/Users/ashleyjelks/Portfolio/app/views/portefeuils/index.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end ;
+          ^~~
+/Users/ashleyjelks/Portfolio/app/views/portefeuils/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/ashleyjelks/Portfolio/app/views/portefeuils/index.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/portefeuils/index.html.erb:6: syntax error, unexpected ')'
+app/views/portefeuils/index.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+app/views/portefeuils/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/portefeuils/index.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/portefeuils" for 127.0.0.1 at 2018-09-06 16:54:02 -0400
+Processing by PortefeuilsController#index as HTML
+  Rendering portefeuils/index.html.erb within layouts/application
+  [1m[36mPortefeuil Load (0.3ms)[0m  [1m[34mSELECT "portefeuils".* FROM "portefeuils"[0m
+  ↳ app/views/portefeuils/index.html.erb:2
+  Rendered portefeuils/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
